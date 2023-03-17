@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.922)),url(back2.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation{
+    width: 96%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: translateY(-2px);
+}
+
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navigation ul li::after{
+    content: "";
+    height: 4px;
+    width: 0;
+    background: #0065ad;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    transition: 0.15s;
+}
+
+.navigation ul li:hover::after{
+    width: 100%;
+}
+
+.description{
+    width: 100%;
+    position:absolute;
+    top: 50%;
+    transform:translateY(-45%) ;
+    text-align:left;
+    color:white;
+}
+
+.description h1{
+    font-size: 60px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.description p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    margin-left: 100px;
+}
+
+.description h2{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    margin-left: 100px;
+}
+
+.description button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid gray;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-left: 130px;
+}
+
+span{
+    background: #043559;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.15s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.342),rgb(0, 0, 0)),url(background1.jpg);
+    background-size: cover;
+    background-position: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin: 8% 40px;
+    padding: 50px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(backgif.gif);
+    background-size:inherit;
+    background-position:center;
+    border-radius: 20px;
+    
+}
+.container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:azure;
+}
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.background{
+    background-image: url(back2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.home2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.342),rgb(0, 0, 0)),url(back4.jpg);
+    background-size: cover;
+    background-position: cover;
+}
+
+.card{
+    width: 30%;
+    background-color: rgb(0, 0, 0) ;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 3px 4px 10px black;
+    display: inline-block;
+}
+
+.image img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.name{
+    text-align: center;
+    padding: 5px;
+}
+
+.name h2{
+    color: white;
+}
+
+.disc{
+    text-align: center;
+    padding: 3px;
+}
+
+.disc button{
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 10px 5px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid gray;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.disc button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
+.card2{
+    width: 30%;
+    background-color: rgb(0, 0, 0) ;
+    border-radius: 8px;
+    margin-left: 150px;
+    box-shadow: 3px 4px 10px black;
+    display: inline-block;
+}
+
+.card3{
+    width: 25%;
+    background-color: rgb(0, 0, 0) ;
+    border-radius: 8px;
+    margin-left: 100px;
+    margin-top: 120px;
+    box-shadow: 3px 4px 10px black;
+    display: inline-block;
+}
+
+.pattinson{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.651)),url(pattinson.jpg);
+    background-size:110%;
+    background-position:center;
+}
+
+.paragraph{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 30%;
+    text-align: left;
+}
+
+.paragraph h1{
+    font-size: 60px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.paragraph p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    margin-left: 100px;
+}
+
+.paragraph h3{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    margin-left: 100px;
+}
+
+.affleck{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.651)),url(affleck.jpg);
+    background-size:100%;
+    background-position:center;
+}
+
+.bale{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.651)),url(dark.jpg);
+    background-size:100%;
+    background-position:center;
+}
+
+.kilmer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.651)),url(kilmer.jpg);
+    background-size:100%;
+    background-position:center;
+}
