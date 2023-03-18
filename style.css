@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 
 .banner{
@@ -102,7 +102,7 @@
     margin-left: 130px;
 }
 
-span{
+.mainButton span{
     background: #043559;
     height: 100%;
     width: 0;
@@ -320,4 +320,223 @@ p {
     background: linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.651)),url(kilmer.jpg);
     background-size:100%;
     background-position:center;
+}
+
+
+.gotham{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.651)),url(gotham.jpg);
+    background-size:100%;
+    background-position:center;
+    background-size: cover;
+}
+
+.adamwest{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.651)),url(adamwest_show.jpg);
+    background-size:100%;
+    background-position:center;
+    background-size: cover;
+}
+
+.keaton{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.164),rgb(0, 0, 0)),url(mk_batman.jpg);
+    background-size:100%;
+    background-position:center;
+    background-size: cover;
+}
+
+
+
+.pic {
+    padding-top: 50px;
+    margin-bottom: 5px;
+    width: 100%;
+    resize: vertical;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+
+.cards {
+    padding: 0;
+    height: 300px;
+    width: 45%;
+    margin: 2%;
+    float: left;
+    padding-bottom: 50px;
+    display:flex;
+}
+
+.blender img {
+    width: 100%;
+}
+
+.blender img:hover{
+    height: auto;
+	box-shadow: 0px 0px 1px 2px #ffcece, 0px 0px 5px 3px #ff0000,
+		0 0 1px 1px #ffcece inset, 0 0px 5px 3px #ff0000 inset;
+	transition-duration: 0.2s;
+}
+
+.contact{
+    position: relative;
+    min-height: 50vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2{
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.contact .content p{
+    color: white;
+    font-weight: 300;
+}
+
+.content2{
+    width:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.content2 .cInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content2 .cInfo .box{
+    position: relative;
+    padding: 10px 0 ;
+    display: flex;
+    color: white;
+}
+
+.content2 .cInfo .box .icons{
+    min-width: 40px;
+    height: 40px;
+    background: rgb(95, 92, 92);
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.content2 .cInfo .box .words{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.content2 .cInfo .box .words h3{
+    font-weight: 900;
+    color: #0c78c5;
+    font-size: 25px;
+}
+
+.content2 .cInfo .box .words p{
+    font-size: 15px;
+}
+
+.form{
+    width: 40%;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+.form h2{
+    font-size: 30px;
+    color: #09568d;
+}
+
+.form .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form .inputBox input,
+.form .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #09568d;
+    outline: none;
+    resize: none;
+}
+
+.form .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.1s;
+    color: #66666688;
+}
+
+.form .inputBox input:focus ~ span,
+.form .inputBox input:valid ~ span,
+.form .inputBox textarea:focus ~ span,
+.form .inputBox textarea:valid ~ span{
+    color: #09568d;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.form .inputBox input[type="submit"]{
+    width: 100px;
+    background: #0a5c979c;
+    color: #09568d;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 19px;
+}
+
+
+@media (max-width: 991px)
+{
+    .contact{
+        padding:40px;
+    }
+
+    .content2{
+        flex-direction: column;
+    }
+
+    .pic{
+        font-size: 20px;
+    }
+
+   
+
 }
