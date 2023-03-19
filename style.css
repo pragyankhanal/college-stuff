@@ -77,11 +77,12 @@
     font-weight: 100;
     line-height: 25px;
     margin-left: 100px;
+    font-style: italic;
 }
 
 .description h2{
     margin: 20px auto;
-    font-weight: 100;
+    font-weight: 1000;
     line-height: 25px;
     margin-left: 100px;
 }
@@ -100,6 +101,7 @@
     position: relative;
     overflow: hidden;
     margin-left: 130px;
+    display: inline;
 }
 
 .mainButton span{
@@ -133,7 +135,6 @@ a{
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.342),rgb(0, 0, 0)),url(background1.jpg);
     background-size: cover;
-    background-position: cover;
 }
 
 body {
@@ -186,7 +187,6 @@ p {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.342),rgb(0, 0, 0)),url(back4.jpg);
     background-size: cover;
-    background-position: cover;
 }
 
 .card{
@@ -463,6 +463,15 @@ p {
     font-size: 15px;
 }
 
+.contact .content p{
+    font-size: 18px;
+}
+
+.contact .content h2{
+    color: #0c78c5;
+    font-weight: 800;
+}
+
 .form{
     width: 40%;
     padding: 40px;
@@ -538,5 +547,91 @@ p {
     }
 
    
+
+}
+
+
+.experience{
+    width: 900px;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    margin-top: 48px;
+    margin-left: 240px;
+    
+}
+
+.exp1{
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgb(0, 0, 0)),url(gray.jpg);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.exp1:hover{
+	box-shadow: 0px 0px 1px 2px #ffcece, 0px 0px 5px 3px #0044ff,
+		0 0 1px 1px #ffcece inset, 0 0px 5px 3px #00a2ff inset;
+	transition-duration: 0.2s;
+
+}
+
+.exp1 h2{
+    color: white;
+    margin-bottom: 18px;
+}
+
+
+.exp1 img{
+    width:300px;
+    height: 200px;
+}
+
+
+.siteReport{
+    margin-top: 5vh;
+    align-items: center;
+    width: 97%;
+    display: inline;
+
+}
+
+.siteReport .report{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.siteReport p{
+    text-align: center;
+    margin-left:38px;
+    background-color: #444444;
+    width:95%;
+}
+
+.imgColumn1{
+    display: inline-block;
+    text-align: center;
+    padding-top: 25px;
+    width: 98%;
+    margin-left: 13.5px;
+    background-color: #444444;
+    padding-bottom: 40px;
+}
+
+.imgColumn1 img{
+    width:48%;
+    padding: 0;
+    display: inline-block;
+}
+
+.siteReport .ps p{
+    width:40%;
+    font-size: 10px;
+    background-color: #44444400;
+    text-align: left;
 
 }
