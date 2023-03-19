@@ -12,7 +12,7 @@
     background-position: center;
 }
 
-.navigation{
+nav{
     width: 96%;
     margin: auto;
     padding: 15px 0;
@@ -29,20 +29,20 @@
     transform: translateY(-2px);
 }
 
-.navigation ul li{
+nav ul li{
     list-style: none;
     display: inline-block;
     margin: 0 15px;
     position: relative;
 }
 
-.navigation ul li a{
+nav ul li a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
 }
 
-.navigation ul li::after{
+nav ul li::after{
     content: "";
     height: 4px;
     width: 0;
@@ -53,7 +53,7 @@
     transition: 0.15s;
 }
 
-.navigation ul li:hover::after{
+nav ul li:hover::after{
     width: 100%;
 }
 
@@ -635,3 +635,16 @@ p {
     text-align: left;
 
 }
+
+.siteReport .report h2{
+    text-align: left;
+    padding-top: 10px;
+    width: 95%;
+    background-color: #444444;
+    margin-left: 38px;
+    color: white;
+    padding-bottom: 10px;
+    
+
+}
+
